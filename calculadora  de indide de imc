@@ -1,0 +1,26 @@
+#pedir datos en variable
+
+nombre = input("asigne su nombre completo:")
+edad = int(input("asigne su edad:"))# int para un numero entero
+altura = float(input("asigne su altura en metro:"))
+peso = float(input("asigne su peso en Kg:"))
+
+
+
+#calculo del IMC(indice de masa corporal)
+imc = peso / (altura ** 2)
+
+
+print("su indice de masa corporal es de :",imc)
+
+
+ 
+ 
+
+
+
+
+
+
+
+
